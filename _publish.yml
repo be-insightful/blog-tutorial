@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 4d28eae4-d05e-4458-87e2-3b09fb15f834
+      url: "https://be-insightful.netlify.app"
