@@ -1,0 +1,16 @@
+---
+title: "blog-tutorial"
+listing:
+  contents: blog
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: bg.jpg
+---
+
+
+이 사이트는 quarto blog template 입니다.  
+블로그는 [https://be-insightful.github.io/](https://be-insightful.github.io/)

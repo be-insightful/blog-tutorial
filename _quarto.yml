@@ -1,0 +1,37 @@
+project:
+  type: website
+  preview: 
+    port: 11111
+    browser: true
+    watch-inputs: true    # Re-render input files when they change (defaults to true)
+    navigate: true        # Navigate the browser automatically when outputs are updated (defaults to true)
+
+execute: 
+  freeze: auto
+
+website:
+  title: "blog-tutorial"
+  site-url: https://be-insightful.netlify.app
+  navbar:
+    left: 
+      - text: blog
+        href: blog/index.qmd
+      - text: journal
+        href: journal/index.qmd
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+        
+format:
+  html:
+    highlight-style: dracula
+    theme: 
+      light: [flatly]
+      dark: [darkly]
+    css: styles.css
+
+
+

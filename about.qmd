@@ -1,0 +1,17 @@
+---
+title: "About"
+image: /img/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com/be-insightful
+
+---
+
+이 사이트는 quarto blog template 입니다.  
+블로그는 [https://be-insightful.github.io/](https://be-insightful.github.io/)
